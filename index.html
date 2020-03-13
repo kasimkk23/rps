@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS on Steroids</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3">Rock Paper Scissors</h1>
+            <p class="lead">Rock Paper Scissors, is a game which is coded in JS!</p>
+            <hr class="my-4">
+            <p>Please click the button below to go to github repository</p>
+            <p class="lead">
+                <a class="btn btn-success btn-lg" href="#" role="button">Github</a>
+            </p>
+        </div>
+        <div class="container">
+            <div class="card border-primary mb-3" style="max-width: 90rem;">
+                <div class="card-header"><h2>Rock Paper Scissors</h2></div>
+                <div class="card-body" id="rps-div">
+                    <img src="images/rock.png" id="rock" height="150px" width="150px" onclick="rpsGame(this)">
+                    <img src="images/paper.png" id="paper" height="150px" width="150px" onclick="rpsGame(this)">
+                    <img src="images/scissor.png" id="scissors"  height="150px" width="150px" onclick="rpsGame(this)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
